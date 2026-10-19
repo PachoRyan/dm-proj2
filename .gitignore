@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+.ipynb_checkpoints/
+data/raw/
+data/bronze/
+data/staging/
+data/final/
+data/artefactos/
+**/temp/
+data/temp_er/
