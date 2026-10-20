@@ -52,6 +52,19 @@ Limpia, resuelve entidades (MinHash/LSH) y construye features, matrices de inter
 - 01_EDA_KDD/KDD/b_artefactos.ipynb
 - 01_EDA_KDD/KDD/c_recuento.ipynb
 
+### 2. Clustering y anomalías (Parte II)
+
+Tipologías de entidades y proveedores y actores atípicos. KMeans++ en Spark; DBSCAN/HDBSCAN y jerárquico en local
+sobre todas las entidades y una muestra de proveedores (métodos O(n²))
+
+- 02_Clustering/a_preparacion.ipynb — features, filtro de actividad, estandarización y PCA (Spark)
+- 02_Clustering/b_kmeans.ipynb — KMeans++ con codo y silueta, perfiles y distancia al centroide (Spark)
+- 02_Clustering/c_densidad.ipynb — k-distancia, grilla DBSCAN, HDBSCAN y outliers (local)
+- 02_Clustering/d_jerarquico.ipynb — Ward/average/complete/single, dendrograma y cofenética (local)
+- 02_Clustering/e_analisis.ipynb — tipologías, segmento cautivo (PQ1), convergencia ARI, ética y escalabilidad
+
+Solo esta parte: `PARTES=2 sh pipeline.sh`
+
 ### Capas de datos
 
 | Carpeta | Contenido |
